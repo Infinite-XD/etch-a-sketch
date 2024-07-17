@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(210, 233, 253);
+}
+
+.controls {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+}
+
+.divContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 5px solid rgb(147, 203, 252);
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+}
+
+.blackSquare {
+    background-color: black;
+}
